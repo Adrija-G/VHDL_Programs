@@ -9,7 +9,7 @@ The entity describes the external interface of the design, including inputs and 
 
 Example:
 ``` entity AND_Gate is
-    Port ( A : in STD_LOGIC;   -- Input A
+Port ( A : in STD_LOGIC;   -- Input A
            B : in STD_LOGIC;   -- Input B
            Y : out STD_LOGIC); -- Output Y
  end AND_Gate; ```
