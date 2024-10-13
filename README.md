@@ -8,11 +8,11 @@ It allows the design and simulation of logic circuits like multiplexers, counter
 The entity describes the external interface of the design, including inputs and outputs.
 
 Example:
-entity AND_Gate is
-    Port ( A : in STD_LOGIC;   -- Input A
-           B : in STD_LOGIC;   -- Input B
-           Y : out STD_LOGIC); -- Output Y
-end AND_Gate;
+> entity AND_Gate is
+>    Port ( A : in STD_LOGIC;   -- Input A
+>           B : in STD_LOGIC;   -- Input B
+>           Y : out STD_LOGIC); -- Output Y
+> end AND_Gate;
 
 # Architecture
 
@@ -28,9 +28,9 @@ end Behavioral;
 
 # VHDL designs consist of three parts:
 
-    > Entity: Defines the interface (ports).
-    > Architecture: Describes the functionality.
-    > Configurations: Optional, used to bind architectures to entities.
+    - Entity: Defines the interface (ports).
+    - Architecture: Describes the functionality.
+    - Configurations: Optional, used to bind architectures to entities.
 
   
 
