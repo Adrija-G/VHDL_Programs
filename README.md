@@ -38,6 +38,3 @@ end Behavioral;
 
 
 
-
-
-Example: AND Gate Design
